@@ -1,0 +1,10 @@
+<div
+class="item-box"
+  style="border: solid 1px black"
+  (click)="passId(item.id)"
+  *ngFor="let item of list"
+>
+  <h3>Item: {{ item.item }}</h3>
+  <p>Qty: {{ item.qty }}</p>
+
+</div>
